@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.luv2code.springdemo.entity.Customer;
 import com.luv2code.springdemo.service.CustomerService;
 
+// Change 2 made to test
 @Controller
 @RequestMapping("/customer")
 public class CustomerController {
@@ -27,7 +28,8 @@ public class CustomerController {
 		
 		// get customers from the service
 		List<Customer> theCustomers = customerService.getCustomers();
-				
+		
+System.out.println("Change Detected");		
 		// add the customers to the model
 		theModel.addAttribute("customers", theCustomers);
 		
