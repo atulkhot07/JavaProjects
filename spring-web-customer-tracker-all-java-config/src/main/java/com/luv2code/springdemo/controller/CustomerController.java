@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.luv2code.springdemo.entity.Customer;
 import com.luv2code.springdemo.service.CustomerService;
 
-// Change
+// Change made to test
 @Controller
 @RequestMapping("/customer")
 public class CustomerController {
