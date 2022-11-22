@@ -494,7 +494,7 @@ export default function Customer() {
                     {_data.currentData().map((v, i) => (
                       <td
                         onClick={() => {
-                          setCustomerValue(customerData[(page - 1 )*perPage + i])
+                          setCustomerValue(customerData[(page - 1) * perPage + i])
                         }}
                         style={{
                           cursor: 'pointer',

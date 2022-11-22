@@ -549,7 +549,7 @@ export default function Service() {
                       {_data.currentData().map((v, i) => (
                         <td
                           onClick={() => {
-                            setServiceValue(serviceData[(page - 1 )*perPage + i])
+                            setServiceValue(serviceData[(page - 1) * perPage + i])
                           }}
                           style={{
                             cursor: 'pointer',

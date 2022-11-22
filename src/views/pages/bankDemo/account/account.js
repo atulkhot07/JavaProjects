@@ -473,13 +473,13 @@ export default function Customer() {
                     onChange={paginationHandler}
                   />
                 </Stack>
-                {_data.currentData().map((val, i) => {
+                {/* {_data.currentData().map((val, i) => {
                   return (
                     <>
                       <h3>{val}</h3>
                     </>
                   )
-                })}
+                })} */}
                 <table className="tables_above_div">
                   <tr style={{ display: 'flex' }}>
                     <th>Accounts(s) Found</th>
@@ -487,7 +487,7 @@ export default function Customer() {
                     {_data.currentData().map((v, i) => (
                       <td
                         onClick={() => {
-                          setAccountValue(accountData[(page - 1 )*perPage + i])
+                          setAccountValue(accountData[(page - 1) * perPage + i])
                           dispatch(
                             getCustomerPrimaryBankSearch({
                               cust_id: accountData[i].cust_id,

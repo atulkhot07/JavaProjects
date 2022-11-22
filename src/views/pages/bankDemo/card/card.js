@@ -367,13 +367,13 @@ export default function Card() {
                     onChange={paginationHandler}
                   />
                 </Stack>
-                {_data.currentData().map((val, i) => {
+                {/* {_data.currentData().map((val, i) => {
                   return (
                     <>
                       <h3>{val}</h3>
                     </>
                   )
-                })}
+                })} */}
                 <table className="tables_above_div">
                   <tr style={{ display: 'flex' }}>
                     <th>Customer(s) Found</th>
@@ -381,7 +381,7 @@ export default function Card() {
                     {_data.currentData().map((v, i) => (
                       <td
                         onClick={() => {
-                          setCardValue(cardData[(page - 1 )*perPage + i])
+                          setCardValue(cardData[(page - 1) * perPage + i])
                         }}
                         style={{
                           cursor: 'pointer',
