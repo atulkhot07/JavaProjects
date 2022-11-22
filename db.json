@@ -1,0 +1,24 @@
+{
+  "service": {
+    "status_info": { "code": "200", "message": "Success" },
+    "params": { "requestId": "23021271700000002", "uri": "/v1/services/7767993685&&admin=1" },
+    "services": [
+      {
+        "si": "7767993685",
+        "imsi": "1234",
+        "imei": "1234",
+        "si_sts": "active",
+        "circle": "maharashtra",
+        "firstcall_date": "2022-04-18",
+        "dev_chng_dt": "2022-04-18",
+        "sim_type": "nano",
+        "vcid": "1234",
+        "stb_type": "internet",
+        "si_lob": "prepaid",
+        "android_id": "1234",
+        "cust_ac_no": "11223"
+      }
+    ],
+    "customers": []
+  }
+}

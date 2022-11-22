@@ -1,0 +1,16 @@
+{
+  "dataJson": [
+    {
+      "value": "1",
+      "name": "Admin"
+    },
+    {
+      "value": "2",
+      "name": "Manager"
+    },
+    {
+      "value": "3",
+      "name": "Finance"
+    }
+  ]
+}

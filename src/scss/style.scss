@@ -1,0 +1,149 @@
+// If you want to override variables do it here
+@import 'variables';
+
+$enable-ltr: true;
+$enable-rtl: true;
+
+// Import CoreUI for React components library
+@import '@coreui/coreui/scss/coreui';
+
+// Import Chart.js custom tooltips styles
+@import '@coreui/chartjs/scss/coreui-chartjs';
+
+@import 'layout';
+@import 'example';
+
+// If you want to add custom CSS you can put it here.
+@import 'custom';
+
+// .example {
+//   .tab-content {
+//     // background-color: purple !important;
+//     position: relative;
+//     // background-image: url('../assets/images/Hoonar_logo_rotate.png');
+//     // background-repeat: no-repeat;
+//     // background-position: center;
+//     // background-size: 70vw 70vh;
+//     // opacity: 0.5;
+//   }
+// }
+
+// .example {
+//   .tab-content::before {
+//     // background-color: purple !important;
+//     content: '';
+//     position: absolute;
+//     background-image: url('../assets/images/Hoonar_logo_rotate.png');
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: 70vw 70vh;
+//     opacity: 0.3;
+//     top: 0;
+//     left: 0;
+//     bottom: 0;
+//     right: 0;
+//   }
+// }
+
+// .main_row {
+//   position: relative;
+//   background-color: white !important;
+//   .card_class {
+//     background-color: transparent !important;
+//   }
+// }
+
+// .main_row::before {
+//   content: '';
+//   position: absolute;
+//   background-image: url('../assets/images/Hoonar_logo_rotate.png');
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   background-size: 70vw 70vh;
+//   opacity: 0.3;
+//   top: 0;
+//   left: 0;
+//   bottom: 0;
+//   right: 0;
+// }
+
+// .sidebar {
+//   .header-sticky {
+//     .row {
+//       position: absolute;
+//     }
+//     .card {
+//       background-color: transparent !important;
+//     }
+//   }
+// }
+
+// .sidebar {
+//   .header-sticky {
+//     .row::before {
+//       content: '';
+//       position: absolute;
+//       background-image: url('../assets/images/Hoonar_logo_rotate.png');
+//       background-repeat: no-repeat;
+//       background-position: center;
+//       background-size: 70vw 70vh;
+//       opacity: 0.3;
+//       top: 0;
+//       left: 0;
+//       bottom: 0;
+//       right: 0;
+//     }
+//   }
+// }
+.nav-link {
+  color: black !important;
+}
+
+.sidebar-nav {
+  .simplebar-content {
+    .show {
+      background-color: transparent;
+    }
+  }
+}
+.simplebar-content {
+  .nav-link:hover {
+    // color: red !important;
+    background-color: #f6fbf4;
+    box-shadow: 2px 2px 4px 2px black;
+    font-weight: 500;
+    .nav-icon {
+      color: red !important;
+      font-weight: 500;
+    }
+  }
+}
+// .simplebar-content {
+//  :hover {
+//     color: red !important;
+//   }
+// }
+
+.sidebar-nav .nav-link:hover.nav-group-toggle::after {
+  background-image: none !important;
+}
+.sidebar-nav .nav-group-toggle::after {
+  content: '^';
+  background-image: none !important;
+}
+
+.tabelGrid {
+  display: flex !important;
+  flex-direction: row !important;
+  background-color: white !important;
+  // padding: 0px 10px !important;
+  justify-content: flex-start !important;
+  flex-wrap: wrap !important;
+  border-radius: 10px !important;
+  width: 98%;
+  margin: auto !important;
+}
+
+.card_class::-webkit-scrollbar {
+  display: none !important;
+}
